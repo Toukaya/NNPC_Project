@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bba02fc4279944d7b801e6cc347ad4ca, type: 3}
+  m_Name: NPC_A_Info
+  m_EditorClassIdentifier: 
+  npcName: New NPC
+  npcDescription: "\u4E00\u4E2A\u666E\u901A\u7684NPC\uFF0C\u5F00\u6717\u4E50\u89C2\uFF0C\u559C\u6B22\u6309\u522B\u4EBA\u8BF4\u7684\u505A\u3002"
+  npcActions:
+  - idle
+  - walk
+  - jump
+  - nod
+  - shake_head
+  - wave_hand
+  npcEmojis:
+  - idle
+  - smile
+  - laugh
+  - cry
+  npcVoice: x4_lingxiaoying_en
+  maxMemoryCapacity: 5
+  mainMemory: []

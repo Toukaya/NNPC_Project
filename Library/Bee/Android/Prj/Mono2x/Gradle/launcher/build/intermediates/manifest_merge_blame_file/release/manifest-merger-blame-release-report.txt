@@ -1,0 +1,191 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.NNPC.NNPC"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="0.4" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="22"
+9-->C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:3-163
+13        android:anyDensity="true"
+13-->C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:135-160
+14        android:largeScreens="true"
+14-->C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:78-105
+15        android:normalScreens="true"
+15-->C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:49-77
+16        android:smallScreens="true"
+16-->C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:21-48
+17        android:xlargeScreens="true" />
+17-->C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:106-134
+18
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:7:3-77
+19-->C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:7:20-74
+20    <uses-permission android:name="android.permission.INTERNET" />
+20-->C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:8:3-65
+20-->C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:8:20-62
+21
+22    <uses-feature android:glEsVersion="0x00030000" />
+22-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:12:5-54
+22-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:12:19-51
+23    <uses-feature
+23-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:13:5-15:36
+24        android:name="android.hardware.vulkan.version"
+24-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:14:9-55
+25        android:required="false" />
+25-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:15:9-33
+26
+27    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+27-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:18:5-71
+27-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:18:22-68
+28    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+28-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:19:5-80
+28-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:19:22-77
+29    <uses-permission android:name="android.permission.BLUETOOTH" />
+29-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:20:5-68
+29-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:20:22-65
+30
+31    <uses-feature
+31-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:22:5-24:36
+32        android:name="android.hardware.microphone"
+32-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:23:9-51
+33        android:required="false" />
+33-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:24:9-33
+34    <uses-feature
+34-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:25:5-27:36
+35        android:name="android.hardware.touchscreen"
+35-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:26:9-52
+36        android:required="false" />
+36-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:27:9-33
+37    <uses-feature
+37-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:28:5-30:36
+38        android:name="android.hardware.touchscreen.multitouch"
+38-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:29:9-63
+39        android:required="false" />
+39-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:30:9-33
+40    <uses-feature
+40-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:31:5-33:36
+41        android:name="android.hardware.touchscreen.multitouch.distinct"
+41-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:32:9-72
+42        android:required="false" />
+42-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:33:9-33
+43
+44    <application
+44-->C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:3-6:17
+45        android:extractNativeLibs="true"
+45-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:35:18-50
+46        android:icon="@mipmap/app_icon"
+46-->C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:49-80
+47        android:label="@string/app_name" >
+47-->C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:16-48
+48        <meta-data
+48-->C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:5:5-79
+49            android:name="unity.builder"
+49-->C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:5:16-44
+50            android:value="\12370026170339" />
+50-->C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:5:45-76
+51
+52        <activity
+52-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:36:9-69:20
+53            android:name="com.unity3d.player.UnityPlayerActivity"
+53-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:37:13-66
+54            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+54-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:38:13-194
+55            android:hardwareAccelerated="false"
+55-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:39:13-48
+56            android:launchMode="singleTask"
+56-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:40:13-44
+57            android:resizeableActivity="true"
+57-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:41:13-46
+58            android:screenOrientation="fullUser"
+58-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:42:13-49
+59            android:theme="@style/UnityThemeSelector" >
+59-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:43:13-54
+60            <intent-filter>
+60-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:44:13-48:29
+61                <action android:name="android.intent.action.MAIN" />
+61-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:45:17-69
+61-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:45:25-66
+62
+63                <category android:name="android.intent.category.LAUNCHER" />
+63-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:47:17-77
+63-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:47:27-74
+64            </intent-filter>
+65
+66            <meta-data
+66-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:50:13-52:40
+67                android:name="unityplayer.UnityActivity"
+67-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:51:17-57
+68                android:value="true" />
+68-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:52:17-37
+69            <meta-data
+69-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:53:13-55:69
+70                android:name="WindowManagerPreference:FreeformWindowSize"
+70-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:54:17-74
+71                android:value="@string/FreeformWindowSize_tablet" />
+71-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:55:17-66
+72            <meta-data
+72-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:56:13-58:79
+73                android:name="WindowManagerPreference:FreeformWindowOrientation"
+73-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:57:17-81
+74                android:value="@string/FreeformWindowOrientation_landscape" />
+74-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:58:17-76
+75
+76            <layout
+76-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:60:13-64:44
+77                android:defaultHeight="1080px"
+77-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:61:17-47
+78                android:defaultWidth="1920px"
+78-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:62:17-46
+79                android:minHeight="300px"
+79-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:63:17-42
+80                android:minWidth="400px" />
+80-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:64:17-41
+81
+82            <meta-data
+82-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:66:13-68:40
+83                android:name="android.notch_support"
+83-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:67:17-53
+84                android:value="true" />
+84-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:68:17-37
+85        </activity>
+86
+87        <meta-data
+87-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:71:9-73:33
+88            android:name="unity.splash-mode"
+88-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:72:13-45
+89            android:value="0" />
+89-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:73:13-30
+90        <meta-data
+90-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:74:9-76:36
+91            android:name="unity.splash-enable"
+91-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:75:13-47
+92            android:value="True" />
+92-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:76:13-33
+93        <meta-data
+93-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:77:9-79:36
+94            android:name="unity.launch-fullscreen"
+94-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:78:13-51
+95            android:value="True" />
+95-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:79:13-33
+96        <meta-data
+96-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:80:9-82:36
+97            android:name="unity.allow-resizable-window"
+97-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:81:13-56
+98            android:value="True" />
+98-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:82:13-33
+99        <meta-data
+99-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:83:9-85:50
+100            android:name="notch.config"
+100-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:84:13-40
+101            android:value="portrait|landscape" />
+101-->[:unityLibrary] C:\Users\Touka\OneDrive\Desktop\NNPC\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:85:13-47
+102    </application>
+103
+104</manifest>

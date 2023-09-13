@@ -1,0 +1,2 @@
+C:\Users\Touka\OneDrive\Desktop\NNPC\obj\Debug\UnityEngine.TestRunner.csproj.AssemblyReference.cache
+C:\Users\Touka\OneDrive\Desktop\NNPC\obj\Debug\UnityEngine.TestRunner.csproj.CoreCompileInputs.cache
