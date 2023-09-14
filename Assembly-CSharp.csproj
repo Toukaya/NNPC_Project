@@ -50,6 +50,7 @@
      <Compile Include="Assets\Scripts\AnimationManager.cs" />
      <Compile Include="Assets\Scripts\VocaModu\xfyun\TTSConverter.cs" />
      <Compile Include="Assets\Scripts\GUIModu\RecordButton.cs" />
+     <Compile Include="Assets\Scripts\LLM\IChatModel.cs" />
      <Compile Include="Assets\SapphiArt\SapphiArtchan\AnimatorControll.cs" />
      <Compile Include="Assets\Scripts\GUIModu\DialogSystem.cs" />
      <Compile Include="Assets\Scripts\Character\NPC\NpcInfo.cs" />
@@ -58,16 +59,17 @@
      <Compile Include="Assets\TextMesh Pro\using scrips\FacialValueManager.cs" />
      <Compile Include="Assets\CloseEventArgs.cs" />
      <Compile Include="Assets\Scripts\Character\NPC\NPCRecords.cs" />
+     <Compile Include="Assets\Scripts\LLM\Aliyun\QwenModel.cs" />
      <Compile Include="Assets\Scripts\AnimatorController.cs" />
      <Compile Include="Assets\Scripts\VocaModu\xfyun\IatRecorder.cs" />
      <Compile Include="Assets\Scripts\Character\NPC\NpcController.cs" />
      <Compile Include="Assets\SapphiArt\SapphiArtchan\Scripts\AnimationManagerUI.cs" />
      <Compile Include="Assets\TextMesh Pro\using scrips\CloseScript.cs" />
-     <Compile Include="Assets\Scripts\LLM\IChatModelBase.cs" />
      <Folder Include="Assets" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <Folder Include="Assets\TextMesh Pro\Sprites" />
+     <Folder Include="Assets\Scripts\LLM\Aliyun" />
      <Folder Include="Assets\Scripts\VocaModu" />
      <Folder Include="Assets\SapphiArt\SapphiArtchan\FBX" />
      <Folder Include="Assets\SapphiArt\SapphiArtchan\Scripts" />

@@ -1,18 +1,15 @@
-﻿using UnityEngine;
-using UnityEngine.Serialization;
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
 using Character.NPC;
 using Cysharp.Threading.Tasks;
 using JetBrains.Annotations;
-using LLM;
+using UnityEngine;
 using UnityEngine.Networking;
 
-namespace OpenAI
+namespace LLM.OpenAI
 {
-    public class ChatGPTScript : MonoBehaviour, IChatModelBase
+    public class ChatGPTScript : ChatModel
     {
         /// <summary>
         /// api地址
@@ -36,12 +33,13 @@ namespace OpenAI
             ClearCached();
         }
 
-        public void Init(string prompt)
+        public override void Init(string prompt)
         {
+            ClearCached();
             dataList.Add(new SendData("system", prompt));
         }
 
-        public void LoadMemory(ConversationMemory memory)
+        public override void LoadMemory(ConversationMemory memory)
         {
             dataList.Add(new SendData(memory.isPlayerMessage ? "user" : "assistant", memory.ToString()));
         }
@@ -51,7 +49,7 @@ namespace OpenAI
             dataList.Clear();
         }
 
-        public async UniTask<string> SendChatRequestAsync(string message)
+        public override async UniTask<string> SendChatRequestAsync(string message)
         {
             //缓存发送的信息列表
             dataList.Add(new SendData("user", message));

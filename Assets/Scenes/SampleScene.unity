@@ -1257,6 +1257,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   info: {fileID: 11400000, guid: 4962838a1a66279418b1c4c8fe5a4f33, type: 2}
+  chatModel: {fileID: 1299109079}
   onChatResponseEvent:
     m_PersistentCalls:
       m_Calls:
@@ -1418,7 +1419,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1299109057}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0f3c5519052c43bc80e0172a9636973f, type: 3}
   m_Name: 
@@ -1427,6 +1428,26 @@ MonoBehaviour:
   gptModel: gpt-3.5-turbo
   dataList: []
   openAIKey: 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
+--- !u!114 &1299109079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1299109057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e5662b9ab5a4231a1f223691ec44b75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  apiUrl: https://dashscope.aliyuncs.com/api/v1/services/aigc/text-generation/generation
+  model: qwen-plus
+  history: []
+  apiKey: sk-9ef8cb0a28d042988df8be228cb31aaa
+  topP: 0.5
+  topK: 50
+  seed: 1024
+  enableSearch: 0
 --- !u!1 &1605562659
 GameObject:
   m_ObjectHideFlags: 0
