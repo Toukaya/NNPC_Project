@@ -1,4 +1,0 @@
-repository "NNPC独立项目@liyin0397@cloud.cn"
-  path "/"
-    br "/main"
-    co "/main"

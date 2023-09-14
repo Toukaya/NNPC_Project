@@ -9,7 +9,8 @@ ScriptsOnlyBuild:
     - CloseScript
     - GUIModu.DialogSystem
     - GUIModu.RecordButton
-    - OpenAI.ChatGPTScript
+    - LLM.Aliyun.QwenModel
+    - LLM.OpenAI.ChatGPTScript
     - SapphiArtChan_AnimManager
     - VocaModu.Recorder
     - VocaModu.xfyun.IatRecorder
@@ -25,10 +26,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -175,39 +174,41 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1560}
     - Class: 114
-      Script: {instanceID: 1680}
+      Script: {instanceID: 1682}
     - Class: 114
-      Script: {instanceID: 2200}
+      Script: {instanceID: 2202}
     - Class: 114
-      Script: {instanceID: 2332}
+      Script: {instanceID: 2334}
     - Class: 114
-      Script: {instanceID: 3304}
+      Script: {instanceID: 3306}
     - Class: 114
-      Script: {instanceID: 3906}
+      Script: {instanceID: 3908}
     - Class: 114
-      Script: {instanceID: 3940}
+      Script: {instanceID: 3942}
     - Class: 114
-      Script: {instanceID: 4162}
+      Script: {instanceID: 4164}
     - Class: 114
-      Script: {instanceID: 4172}
+      Script: {instanceID: 4174}
     - Class: 114
-      Script: {instanceID: 4428}
+      Script: {instanceID: 4430}
     - Class: 114
-      Script: {instanceID: 5086}
+      Script: {instanceID: 5090}
     - Class: 114
-      Script: {instanceID: 5120}
+      Script: {instanceID: 5124}
     - Class: 114
-      Script: {instanceID: 5348}
+      Script: {instanceID: 5352}
     - Class: 114
-      Script: {instanceID: 5476}
+      Script: {instanceID: 5480}
     - Class: 114
-      Script: {instanceID: 5608}
+      Script: {instanceID: 5612}
     - Class: 114
-      Script: {instanceID: 7204}
+      Script: {instanceID: 6664}
     - Class: 114
-      Script: {instanceID: 7216}
+      Script: {instanceID: 7210}
     - Class: 114
-      Script: {instanceID: 7914}
+      Script: {instanceID: 7222}
+    - Class: 114
+      Script: {instanceID: 7920}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -831,7 +832,7 @@ ScriptsOnlyBuild:
       serializedVersion: 2
       Hash: 2698cc649655288beb1ff05366a5fb14
     assemblyName: Assembly-CSharp.dll
-    namespaceName: OpenAI
+    namespaceName: LLM.OpenAI
     className: ChatGPTScript
   - hash:
       serializedVersion: 2
@@ -923,6 +924,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnCollisionExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 5dec52fd504d5cdd34d3c76cd9de88db
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: LLM.Aliyun
+    className: QwenModel
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1021,7 +1028,7 @@ ScriptsOnlyBuild:
     className: IatRecorder
   - hash:
       serializedVersion: 2
-      Hash: 68c6d3113c3f77b765d2d465e384d1b6
+      Hash: a82021dec0d63d3181286aec75280940
     assemblyName: Assembly-CSharp.dll
     namespaceName: Character.NPC
     className: NpcController
