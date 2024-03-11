@@ -1,18 +1,15 @@
-﻿using UnityEngine;
-using UnityEngine.Serialization;
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
 using Character.NPC;
 using Cysharp.Threading.Tasks;
 using JetBrains.Annotations;
-using LLM;
+using UnityEngine;
 using UnityEngine.Networking;
 
-namespace OpenAI
+namespace LLM.OpenAI
 {
-    public class ChatGPTScript : MonoBehaviour, IChatModelBase
+    public class ChatGPTScript : ChatModel
     {
         /// <summary>
         /// api地址
@@ -31,17 +28,13 @@ namespace OpenAI
         /// </summary> 
         [SerializeField] [NotNull] public string openAIKey = "sk-xxx";
 
-        private void Start()
+        public override void Init(string prompt)
         {
             ClearCached();
-        }
-
-        public void Init(string prompt)
-        {
             dataList.Add(new SendData("system", prompt));
         }
 
-        public void LoadMemory(ConversationMemory memory)
+        public override void LoadMemory(ConversationMemory memory)
         {
             dataList.Add(new SendData(memory.isPlayerMessage ? "user" : "assistant", memory.ToString()));
         }
@@ -51,7 +44,7 @@ namespace OpenAI
             dataList.Clear();
         }
 
-        public async UniTask<string> SendChatRequestAsync(string message)
+        public override async UniTask<string> SendChatRequestAsync(string message)
         {
             //缓存发送的信息列表
             dataList.Add(new SendData("user", message));
@@ -62,6 +55,8 @@ namespace OpenAI
                 model = gptModel,
                 messages = dataList
             };
+            
+            dataList.ForEach(x => Debug.Log($"msg: {x.role}-{x.content}"));
      
             string jsonText = JsonUtility.ToJson(postData);
             byte[] data = System.Text.Encoding.UTF8.GetBytes(jsonText);
@@ -75,6 +70,9 @@ namespace OpenAI
          
             if (request.responseCode != 200) return "";
             string msg = request.downloadHandler.text;
+#if DEBUG
+            Debug.Log(msg);            
+#endif
             MessageBack textBack = JsonUtility.FromJson<MessageBack>(msg);
             if (textBack == null || textBack.choices.Count <= 0) return "";
             string backMsg = textBack.choices[0].message.content;

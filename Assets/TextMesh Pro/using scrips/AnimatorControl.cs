@@ -189,6 +189,7 @@ public class AnimatorControl : MonoBehaviour
             {
                 _ExpressionControl.FacialValueManager = tempFacialValueManager;
             }
+            //throw new Exception("表情" + expression + "不存在");
             Debug.Log("表情" + expression +"不存在");
         }
     }

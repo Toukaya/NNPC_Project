@@ -30,7 +30,7 @@ namespace Character.NPC
         [SerializeField] public string npcVoice;
         [SerializeField] [Range(1, 10)] public byte maxMemoryCapacity = 5;
         [SerializeField] public List<ConversationMemory> mainMemory = new();
-        private readonly Queue<ConversationMemory> _memory = new();
+        private readonly Queue<ConversationMemory> _memory = new(); // TODO: remove this
 
         public void RecordMemory(ConversationMemory memory)
         {

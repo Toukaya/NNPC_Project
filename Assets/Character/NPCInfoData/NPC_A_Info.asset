@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: NPC_A_Info
   m_EditorClassIdentifier: 
   npcName: New NPC
-  npcDescription: "\u4E00\u4E2A\u666E\u901A\u7684NPC\uFF0C\u5F00\u6717\u4E50\u89C2\uFF0C\u559C\u6B22\u6309\u522B\u4EBA\u8BF4\u7684\u505A\u3002"
+  npcDescription: "\u4E00\u4E2A\u666E\u901A\u7684NPC\uFF0C\u5F00\u6717\u4E50\u89C2\u3002"
   npcActions:
   - idle
   - walk

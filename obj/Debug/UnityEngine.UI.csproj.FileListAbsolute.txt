@@ -1,2 +1,0 @@
-C:\Users\Touka\OneDrive\Desktop\NNPC\obj\Debug\UnityEngine.UI.csproj.AssemblyReference.cache
-C:\Users\Touka\OneDrive\Desktop\NNPC\obj\Debug\UnityEngine.UI.csproj.CoreCompileInputs.cache
